@@ -1,4 +1,4 @@
-function teste(val){
+function palestrantes(val){
 
 	if(val == 1){
 
