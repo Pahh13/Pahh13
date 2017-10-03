@@ -224,14 +224,14 @@ ul li {
 }
 
 .bg-image-1 {
-  background: url(../images/backgrounds/bg-1.jpg) no-repeat center center/cover;
+  background: url(../images/backgrounds/bg1.jpeg) no-repeat center center/cover;
 }
 .bg-image-1::before {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 .bg-image-2 {
-  background: url(../images/backgrounds/bg-2.jpg) no-repeat center bottom/cover;
+  background: url(../images/backgrounds/bg2.jpeg) no-repeat center bottom/cover;
 }
 .bg-image-2::before {
   background-color: rgba(0, 0, 0, 0.7);
@@ -322,7 +322,11 @@ ul li {
   min-height: 100vh;
   position: relative;
   text-align: center;
+<<<<<<< HEAD
   background: url(../images/backgrounds/header.jpeg) no-repeat center center/cover;
+=======
+  background: url(../images/backgrounds/bg3.jpeg) no-repeat center center/cover;
+>>>>>>> 76e14ce75604ba1c5bca42a0a1c522dbf05e1a42
   display: table;
 }
 .site-header::before {
