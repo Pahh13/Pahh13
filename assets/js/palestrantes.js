@@ -52,7 +52,7 @@ function palestrantes(val){
 
     var dialog = bootbox.dialog({
     title: 'FOXBIT',
-    message: "<p> Teremos a honra de ter um convidado surpresa para todos os participantes. Podemos adiantar que é uma das maiores Startups, a FoxBit. E o convidado surpresa terá outras surpresas para todos nós. Não percam !</p>",
+    message: "<p> Membro da comunidade de cryptocurrencies, criptografia e blockchain. Possui projetos em blockchain + IoT além de consultoria.<br> Atua na Foxbit junto ao time de customer sucess.</p>",
     buttons: {
         ok: {
             label: "Voltar",
