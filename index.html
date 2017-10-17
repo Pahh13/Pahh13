@@ -13,6 +13,16 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body data-spy="scroll" data-target="#site-nav">
+    <script src="https://unpkg.com/blip-chat-web" type="text/javascript"></script>
+    <script>
+        (function () {
+            window.onload = function () {
+                new BlipWebSDK.ChatBuilder()
+                    .withApiKey('cdedfa4b-cec6-44f1-ae94-a70c922e5cc3')
+                    .build();
+            }
+        })();
+    </script>
     <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
         <div class="container">
             <div class="navbar-header">
@@ -295,5 +305,16 @@
     <script src="assets/js/bootbox.min.js"></script>
     <script src="assets/js/palestrantes.js"></script>
     
+    <script src="https://unpkg.com/blip-chat-web" type="text/javascript"></script>
+    <script>
+        (function () {
+            window.onload = function () {
+                new BlipWebSDK.ChatBuilder()
+                    .withApiKey('cdedfa4b-cec6-44f1-ae94-a70c922e5cc3')
+                    .build();
+            }
+        })();
+    </script>
+            
 </body>
 </html>
